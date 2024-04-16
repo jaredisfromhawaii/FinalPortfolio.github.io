@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main id="home">
+        <div class="preview">
+            <h1 class="sitename">Personal Portfolio</h1>
+            <div id="sideNav" class="sidenav">
+                <a href="javascipt:void(0)" class="closebtn" onclick="closenav()">&times;</a>
+                <a href="#home">Home</a>
+                <a href="index1.html">Personal Information</a>
+                <a href="Hobbies.html">Hobbies</a>
+                <a href="mvs.html">Music Videos</a>
+                <a href="songs.html">Songs</a>
+                <a href="series.html">Series</a>
+            </div>
+        </div>
+    </main>
+        <div class="detail">
+            <h1>I'm Jared <span>Santos</span></h1>
+            <p>I'm a millionaire, IT student and a billionaire</p>
+        </div>
+        <div class="images">
+            <img src="Asahi1.2.png" class="Asahi">
+        </div>
+    </div>
+    <script>
+        function openNav(){
+            document.getElementById("mySidenav").style.width = "350px"
+        }
+        function closenav(){
+            document.getElementById("mySidenav").style.width = "0"        
+        }
+    </script>
+    
+</body>
+</html>

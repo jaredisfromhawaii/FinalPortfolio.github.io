@@ -1,0 +1,16 @@
+.body{
+    background-color: lightgray;
+}
+
+.songs{
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    grid-template-rows: repeat(2, 50%);
+    position: absolute;
+    margin-top: 20%;
+    margin-left: 10%;
+    margin-right: 15%;
+    margin-bottom: 20%;
+    
+}
+
